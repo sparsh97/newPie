@@ -19,8 +19,8 @@ namespace bethanyspieshop.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("bethanyspieshopContextConnection")));
 
-                /*services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<bethanyspieshopContext>();*/
+                services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<bethanyspieshopContext>();
             });
         }
     }
