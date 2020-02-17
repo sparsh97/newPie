@@ -17,7 +17,7 @@ namespace bethanyspieshop.Areas.Identity
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<bethanyspieshopContext>(options =>
                     options.UseSqlServer(
-                        context.Configuration.GetConnectionString("bethanyspieshopContextConnection")));
+                        context.Configuration.GetConnectionString("DefaultConnection")));
 
                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<bethanyspieshopContext>();

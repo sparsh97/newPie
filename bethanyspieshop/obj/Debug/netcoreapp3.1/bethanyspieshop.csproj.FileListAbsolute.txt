@@ -313,3 +313,4 @@ C:\Users\INT163\Desktop\bethanyspieshop\bethanyspieshop\obj\Debug\netcoreapp3.1\
 C:\Users\INT163\Desktop\bethanyspieshop\bethanyspieshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
 C:\Users\INT163\Desktop\bethanyspieshop\bethanyspieshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\INT163\Desktop\bethanyspieshop\bethanyspieshop\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\INT163\Desktop\bethanyspieshop\bethanyspieshop\obj\Debug\netcoreapp3.1\bethanyspieshop.csprojAssemblyReference.cache

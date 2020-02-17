@@ -4,10 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using bethanyspieshop.Models;
 using BethanysPieShop.Models; 
-using bethanyspieshop.Models;
+//using bethanyspieshop.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BethanysPieShop.Models
 {
+    [Authorize]
     public class OrderRepository : IOrderRepository
     {
 
